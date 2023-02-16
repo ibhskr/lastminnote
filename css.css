@@ -45,8 +45,11 @@ header h2{
     transition: 0.5s;
     background-color:darkseagreen;
 }
+
+/*-----code for add button--------*/
 #add-btn{
-    border: dotted;
+    border: dotted rgb(13, 14, 14);
+    background-color: rgb(200, 255, 127);
 }
 #add-btn img{
     width: 100px;
@@ -55,12 +58,46 @@ header h2{
     background-color: aqua;
     transform: scale(1.02);
 }
+/*---------Quick link--------*/
+.quicklink{
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+/*----------code for dancing book ---------*/
 .dancing-book{
-    display: block;
+    grid-column: 2/3;
+    grid-row: 1/1;
 }
 .dancing-book img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+   width: 150px;
+}
+/*------popular post ----------*/
+.m-v-s{
+    margin-left: 10%;
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+.m-v-s h3{
+    color: rgb(40, 240, 107);
+}
+/*-----Footer --------------*/
+
+footer{
+
+    background-color: rgb(6, 6, 50);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
+footer p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#thankyou{
+    color: rgb(40, 240, 107);
 }
