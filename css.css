@@ -19,6 +19,11 @@ header button{
     border: none;
     margin-right: 10px;
 }
+header button:hover{
+    background-color: rgb(98, 232, 118);
+    border-radius: 15%;
+    transition: .8s;
+}
 header button img{
     width: 30px;
 }
@@ -39,6 +44,11 @@ header button img{
     background-color: transparent;
     border: none;
     margin-right: 10px;
+}
+.nbar button:hover{
+    background-color: red;
+    border-radius: 15%;
+    
 }
 .nbar button img{
     width: 30px;
@@ -72,14 +82,16 @@ navbar a{
 
 
 
-
-.welcome-note{
-    background-color: hwb(34 84% 2%);
-    margin: 5px;
-    border: solid transparent;
-    border-radius: 5px;
-    padding: 10%;
+#pp{
+    padding: 20px;
+    text-align: center;
 }
+
+
+
+
+
+
 .select-cat{
     background-color: bisque;
     margin: 5px;
@@ -150,6 +162,15 @@ navbar a{
     color:darkcyan;
     margin: 0;
 }
+.popup-header button{
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+}
+.popup-header button:hover{
+    background-color: red;
+    
+}
 .popup button img{
     float: right;
     width: 20px;
@@ -182,6 +203,8 @@ navbar a{
 }
 .sub button a{
     text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .subject{
     display: grid;
@@ -208,9 +231,10 @@ navbar a{
 .dancing-book{
     grid-column: 2/3;
     grid-row: 1/1;
-}
+} 
 .dancing-book img{
    width: 150px;
+   border-radius: 50%;
 }
 /*------popular post ----------*/
 .m-v-s{
